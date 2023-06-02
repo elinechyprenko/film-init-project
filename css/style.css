@@ -280,3 +280,43 @@ transition: 0.5s;
 .sku_wrapper {
   font-size: 14px;
 }
+.contacts-image__img {
+  width: 100%;
+  opacity: 0.7;
+}
+.contacts-image__img:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+.contacts-image__col {
+  padding: 0;
+}
+.contacts-image__row {
+  margin-bottom: 70px;
+}
+.contacts-image__container {
+  margin-bottom: 50px;
+}
+.contacts-address__col,
+.contacts-hour__col,
+.contacts-location__col {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.contacts-hour__col,
+.contacts-address__col {
+  margin: 0;
+  padding: 0;
+}
+.contacts-hour__iteam {
+  padding: 0 !important;
+}
+.contacts__title {
+  font-family: 'Roboto';
+  margin-bottom: 40px;
+  font-weight: 900;
+}
+.contacts__info {
+  color: #737373;
+  font-weight: 500;
+}
