@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+  rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+  <script src="../js/firebase-config.js"></script>
+  <title>Fantasy</title>
+</head>
+<body style="background-color: rgb(10, 12, 17);">
+      <nav class="navbar-films__comedy navbar navbar-expand-lg">
+      <div class="navbar-films__container container-fluid">
+        <a class="navbar-films__logo navbar-brand" href="index.html">FilmHire</a>
+        <button class="navbar-films__btn navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-films__icon navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="navbar-films__block collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-films__iteam navbar-nav">
+            <li class="navbar-films__list nav-item">
+              <a class="navbar-films__link nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="navbar-films__list nav-item">
+              <a class="navbar-films__link nav-link" aria-current="page" href="contacts.html">Contacts</a>
+            </li>
+            <li class="navbar-films__list nav-item dropdown">
+              <a class="navbar-films__link navbar-films__dropLink nav-link dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Films
+              </a>
+              <ul class="navbar-films__dropIteam navbar-films__dropMenu dropdown-menu">
+                <li class="navbar-films__dropList"><a class="navbar-films__dropLink dropdown-item" href="comedy.html">Komedie</a>
+                </li>
+                <li class="navbar-films__dropList"><a class="navbar-films__dropLink dropdown-item" href="adventure.html">Przygodowe</a>
+                </li>
+                <li class="navbar-films__dropList"><a class="navbar-films__dropLink dropdown-item" href="fantasy.html">Fantastyczne</a>
+                </li>
+              </ul>
+            </li>
+            <li class="navbar-films__list nav-item">
+              <a class="navbar-films__link nav-link" href="cart.html">Koszyk</a>
+            </li>
+            <li class="navbar-films__list nav-item">
+              <a class="navbar-films__link nav-link" href="account.html">Konto</a>
+            </li>
+            <li class="navbar-films__list nav-item">
+              <a class="navbar-films__link nav-link" href="order.html">Zamówienie</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="thirdFilm__container container-fluid">
+      <div class="thirdFilm__row row">
+        <div class="thirdFilm__col col-lg-4">
+          <img class="thirdFilm__image" src="../img/fantasy1.jpg" alt="fantasy1">
+        </div>
+        <div class="thirdFilm-description__col col-lg-8">
+          <h2 class="thirdFilm-description__title">Joe Black</h2>
+          <div class="thirdFilm-description__block">
+          <strong class="thirdFilm-description">Opis: </strong>
+          <p class="thirdFilm-description__paragraph">Śmierć pod pseudonimem Joe Black zjawia się po Williama. Nieoczekiwanie zakochuje się w jego córce.</p> </div>
+          <div class="thirdFilm-description__info">
+          <span class="thirdFilm-description__infoGlobal">Reżyseria: <span class="thirdFilm-description__information">Martin Brest</span></span>
+          <span class="thirdFilm-description__infoGlobal">Scenariusz: <span class="thirdFilm-description__information">Ron Osborn, Jeff Reno</span></span>
+          <span class="thirdFilm-description__infoGlobal">Gatunek: <span class="thirdFilm-description__information">Fantasy</span></span>
+          <span class="thirdFilm-description__infoGlobal">Produkcja: <span class="thirdFilm-description__information">USA</span></span>
+          <span class="thirdFilm-description__infoGlobal">Premiera: <span class="thirdFilm-description__information">2 listopada 1998 (Światowa) 1 stycznia 1999 (Polska premiera kinowa)</span></span>
+          </div>
+
+          <div class="thirdFilm-description__price">
+            <span class="thirdFilm-description__price thirdFilm-description__priceOriginal">70,00 zł</span>
+            <span class="thirdFilm-description__price thirdFilm-description__priceDiscounted">65,00 zł</span>
+          </div>
+          <button class="thirdFilm-description__button">Dodaj do koszyka</button>
+          <div class="product_meta">
+          <span class="sku_wrapper">SKU: <span class="sku">AA673</span></span>
+          <span class="posted_in">Kategoria: <a href="fantasy.html" rel="tag">fantasy</a></span>
+          <span class="tagged_as">Tagi: <a href="fantasy.html" rel="tag">fantasy</a>,
+          <a href="fantasy.html" rel="tag">miłość</a>, <a href="fantasy.html" rel="tag">joe</a></span>
+        </div>
+        </div>
+      </div>
+
+            <div class="fourthFilm__row row">
+              <div class="fourthFilm__col col-lg-4">
+                <img class="fourthFilm__image" src="../img/fantasy2.jpg" alt="comedia2">
+              </div>
+              <div class="fourthFilm-description__col col-lg-8">
+                <h2 class="fourthFilm-description__title">Jak wytresować smoka 2</h2>
+                <div class="fourthFilm-description__block">
+                  <strong class="fourthFilm-description">Opis: </strong>
+                  <p class="fourthFilm-description__paragraph">Pięć lat po zjednoczeniu rasy smoków oraz ludzi Czkawka i Szczerbatek stają do obrony wyspy Berk przed niebezpiecznymi dzikimi bestiami, a także tajemniczym Smoczym Jeźdźcem.</p>
+                </div>
+                <div class="fourthFilm-description__info">
+                  <span class="fourthFilm-description__infoGlobal">Reżyseria: <span class="fourthFilm-description__information">Dean DeBlois</span></span>
+                  <span class="fourthFilm-description__infoGlobal">Scenariusz: <span
+                      class="fourthFilm-description__information">Dean DeBlois</span></span>
+                  <span class="fourthFilm-description__infoGlobal">Gatunek: <span
+                      class="fourthFilm-description__information">Fantasy</span></span>
+                  <span class="fourthFilm-description__infoGlobal">Produkcja: <span
+                      class="fourthFilm-description__information">USA</span></span>
+                  <span class="fourthFilm-description__infoGlobal">Premiera: <span class="fourthFilm-description__information">16 maja 2014 (Światowa) 20 czerwca 2014 (Polska premiera kinowa)</span></span>
+                </div>
+            
+                <div class="fourthFilm-description__price">
+                  <span class="fourthFilm-description__priceOriginal">50,00 zł</span>
+                </div>
+                <button class="fourthFilm-description__button">Dodaj do koszyka</button>
+                <div class="product_meta">
+                  <span class="sku_wrapper">SKU: <span class="sku">AK124</span></span>
+                  <span class="posted_in">Kategoria: <a href="fantasy.html" rel="tag">fantasy</a></span>
+                  <span class="tagged_as">Tagi: <a href="fantasy.html" rel="tag">fantasy</a>,
+                    <a href="fantasy.html" rel="tag">filmy</a>, <a href="fantasy.html"
+                      rel="tag">smok</a></span>
+                </div>
+              </div>
+            </div>
+    </div>
+    <script src="../js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

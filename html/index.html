@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+  rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+  <script src="../js/firebase-config.js"></script>
+  <title>FilmHire</title>
+</head>
+
+<body class="index-body" style="background-color: rgb(0,0,0);">
+
+  <nav class="navbar-films navbar navbar-expand-lg">
+    <div class="navbar-films__container container-fluid">
+      <a class="navbar-films__logo navbar-brand" href="index.html">FilmHire</a>
+      <button class="navbar-films__btn navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-films__icon navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-films__block collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-films__iteam navbar-nav">
+          <li class="navbar-films__list nav-item">
+            <a class="navbar-films__link nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="navbar-films__list nav-item">
+            <a class="navbar-films__link nav-link" aria-current="page" href="contacts.html">Contacts</a>
+          </li>
+          <li class="navbar-films__list nav-item dropdown">
+            <a class="navbar-films__link navbar-films__dropLink nav-link dropdown-toggle" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Films
+            </a>
+            <ul class="navbar-films__dropIteam navbar-films__dropMenu dropdown-menu">
+              <li class="navbar-films__dropList"><a class="navbar-films__dropLink dropdown-item" href="comedy.html">Komedie</a>
+              </li>
+              <li class="navbar-films__dropList"><a class="navbar-films__dropLink dropdown-item" href="adventure.html">Przygodowe</a>
+              </li>
+              <li class="navbar-films__dropList"><a class="navbar-films__dropLink dropdown-item"
+                  href="fantasy.html">Fantastyczne</a></li>
+            </ul>
+          </li>
+          <li class="navbar-films__list nav-item">
+            <a class="navbar-films__link nav-link" href="new.html">Nowości</a>
+          </li>
+          <li class="navbar-films__list nav-item">
+            <a class="navbar-films__link nav-link" href="log.html">Zaloguj się</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="global__container container-fluid">
+    <div class="global__row row">
+      <div class="global__col col">
+        <h4 class="global__title">IDEALNY WIECZÓR Z FILMEM ZACZYNA SIĘ TUTAJ</h3>
+          <img class="global__image" src="../img/global1.jpg" alt="global">
+      </div>
+    </div>
+  </div>
+  <div class="offers__container container-fluid">
+    <div class="offers__row row">
+      <div class="offers__col col-lg-6">
+        <h2 class="offers__title"><a href="#">MOVIE</a></h2>
+        <img class="offers__image" src="../img/adventure1.jpg" alt="avatar">
+      </div>
+      <div class="offers__col col-lg-6">
+        <h2 class="offers__title"><a href="#">ONLY HERE</a></h2>
+        <img class="offers__image" src="../img/fantasy1.jpg" alt="joe">
+      </div>
+      </div>
+
+      <div class="new__row row">
+      <div class="new__col col">
+        <a class="new__link" href="">
+        <h1 class="new__title">NEW</h1>
+        <img class="new__image" src="../img/film3.jpg" alt="forsage">
+        </a>
+      </div>
+      </div>
+      </div>
+  <script src="../js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+
+</html>

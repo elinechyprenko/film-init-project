@@ -1,0 +1,282 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  overflow-y: scroll;
+  /* min-width: 100%; */
+  /* min-height: 100vh; */
+  margin: 0;
+
+}
+
+html {
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+li {
+  list-style: none;
+}
+
+.navbar-films {
+  padding: 30px;
+  background-color: rgb(0, 0, 0);
+}
+.navbar-films__comedy {
+  padding: 30px;
+  background-color: rgb(10, 12, 17);;
+}
+.navbar-films__logo,
+.navbar-films__link {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-films__logo {
+  font-size: 2rem;
+  letter-spacing: 0.02em;
+  margin-left: 20px;
+  font-weight: 700;
+}
+
+.navbar-films__link {
+  font-size: 1.2rem;
+}
+
+.navbar-films__logo:hover {
+  color: rgb(255, 255, 255);
+}
+.navbar-films__link:hover {
+  color: rgb(255, 255, 255);
+}
+.navbar-films__iteam {
+  width: 100%;
+  justify-content: center;
+}
+.navbar-films__container {
+  margin-top: 10px;
+}
+.navbar-films__list {
+  margin: 0 5px;
+}
+.navbar-films__dropIteam {
+  background-color: rgb(0, 0, 0);
+}
+.navbar-films__dropLink {
+  color: rgb(255, 255, 255);
+}
+.global__image {
+  background-size: cover;
+  min-width: 100%;
+  background-repeat: no-repeat;
+}
+
+.global__col {
+  padding: 0;
+}
+
+.global__title {
+  position: absolute;
+  left: 32%;
+  top: 45%;
+  color: #C4BCBC;
+}
+
+.offers__container {
+  margin-top: 40px;
+}
+
+.offers__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.offers__image {
+  max-width: 500px;
+  max-height: 716px;
+  margin-left: 16.7%;
+  opacity: 0.6;
+}
+.offers__image:hover {
+  transform: scale(1.06);
+  transition: 0.5s;
+  overflow: hidden;
+  opacity: 1;
+}
+.new__image {
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  opacity: 0.6;
+}
+.new__title {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.new__image:hover {
+  transform: scale(1.06);
+  transition: 0.5s;
+  overflow: hidden;
+  opacity: 1;
+}
+.sixthFilm__image,
+.fifthFilm__image,
+.fourthFilm__image,
+.thirdFilm__image,
+.secondFilm__image,
+.firstFilm__image {
+  width: 450px;
+}
+.product_meta,
+.sixthFilm-description__title,
+.fifthFilm-description__title,
+.fourthFilm-description__title,
+.thirdFilm-description__title,
+.firstFilm-description__price,
+.secondFilm-description__title,
+.firstFilm-description__title {
+  color: rgb(255, 255, 255);
+}
+.sixthFilm-description__title,
+.fifthFilm-description__title,
+.fourthFilm-description__title,
+.thirdFilm-description__title,
+.secondFilm-description__title,
+.firstFilm-description__title {
+  font-family: 'Roboto Slab';
+  font-weight: 900;
+  font-size: 2rem;
+  color: #c8cad1;
+  margin-bottom: 25px;
+}
+.fifthFilm__container,
+.thirdFilm__container,
+.firstFilm__container {
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 10%;
+}
+.fifthFilm__row,
+.thirdFilm__row,
+.firstFilm__row {
+  margin-bottom: 10%;
+}
+.sixthFilm-description__price,
+.fifthFilm-description__price,
+.fourthFilm-description__price,
+.thirdFilm-description__price,
+.secondFilm-description__price,
+.firstFilm-description__price {
+  margin-bottom: 25px;
+}
+.sixthFilm-description__priceOriginal,
+.fifthFilm-description__priceOriginal,
+.thirdFilm-description__priceOriginal,
+.firstFilm-description__priceOriginal {
+  text-decoration: line-through;
+  color: rgb(108, 107, 107);
+  font-size: 20px;
+}
+.sixthFilm-description__priceDiscounted,
+.fifthFilm-description__priceDiscounted,
+.fourthFilm-description__priceOriginal,
+.thirdFilm-description__priceDiscounted,
+.secondFilm-description__priceOriginal,
+.firstFilm-description__priceDiscounted {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin-left: 6px;
+}
+.sixthFilm-description__button,
+.fifthFilm-description__button,
+.fourthFilm-description__button,
+.thirdFilm-description__button,
+.secondFilm-description__button,
+.firstFilm-description__button {
+  padding: 15px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: rgb(255, 255, 255);
+  background-color: #2292B1;
+  border-top:#2292B1;
+  border-left: #2292B1;
+  margin-bottom: 25px;
+}
+.fourthFilm-description__button:hover {
+  background-color: #1610c4;
+  transition: 0.5s;
+}
+.firstFilm-description__button:hover {
+  background-color: #1610c4;
+  transition: 0.5s;
+}
+.secondFilm-description__button:hover {
+  background-color: #1610c4;
+  transition: 0.5s;
+}
+.thirdFilm-description__button:hover {
+  background-color: #1610c4;
+  transition: 0.5s;
+}
+.fifthFilm-description__button:hover {
+background-color: #1610c4;
+transition: 0.5s;
+}
+.sixthFilm-description__button:hover {
+background-color: #1610c4;
+transition: 0.5s;
+}
+.sixthFilm-description__block,
+.fifthFilm-description__block,
+.fourthFilm-description__block,
+.thirdFilm-description__block,
+.secondFilm-description__block,
+.firstFilm-description__block {
+  margin-bottom: 35px;
+  font-size: 18px;
+  color: rgb(222, 219, 219);
+  width: 800px;
+}
+.sixthFilm-description__paragraph,
+.fifthFilm-description__paragraph,
+.fourthFilm-description__paragraph,
+.thirdFilm-description__paragraph,
+.secondFilm-description__paragraph,
+.firstFilm-description__paragraph {
+  display: inline;
+}
+.sixthFilm-description__info,
+.fifthFilm-description__info,
+.fourthFilm-description__info,
+.thirdFilm-description__info,
+.secondFilm-description__info,
+.firstFilm-description__info {
+  color: rgb(222, 219, 219);
+  margin-bottom: 35px;
+}
+.tagged_as,
+.posted_in,
+.sku_wrapper,
+.sixthFilm-description__infoGlobal,
+.fifthFilm-description__infoGlobal,
+.fourthFilm-description__infoGlobal,
+.secondFilm-description__infoGlobal,
+.firstFilm-description__infoGlobal,
+.thirdFilm-description__infoGlobal {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.tagged_as,
+.posted_in,
+.sku_wrapper {
+  font-size: 14px;
+}

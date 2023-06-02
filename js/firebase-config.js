@@ -1,0 +1,12 @@
+    var firebaseConfig = {
+      "project_id": "films-template-init",
+      databaseURL: "https://films-template-init-default-rtdb.europe-west1.firebasedatabase.app/",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDJRgrI04wLdKBw\nBimhVzq1pShZAlIG9RAmTm/u6NKN0wYVfhuqhlCSm1N01pbJ2XTujd73LXqKJr9U\nJXOsEyP4dzsX2gq2dh7WuKqMX6qbsjbJwl5ICEPgOdZUdvJ+UE4eNlM1nAqkRLTA\np/qHxJMDDJDN7cD2s9kNevr64V4zTOP4obQ8yQgkYkTYgc+hULbJUOcu/F5lVFpH\n8CGLJiNS+ITmaUFFdjU3o4Xb1xF0bX3QLa22lqo8PKSa/lu2G1hZMzKT2wTaSWHd\n94HcekvO+qjPmfCN32pqYZ5OuQLJ31P1JS48ylQ4GFYca9TrYYZKTaoP0+8Ya4PP\nb7TGExy5AgMBAAECggEAD5Drr5lwyMgFynQnjxNMdpTl2HBuAJy+WYASdxMpiY9q\n9omQwTDvFU+O9kfMVKMNQI/XUR2CzyFtBah52DKIwyQRfWg/ENp0yx1wDzgs3Sq8\nwwDVwtNk0HgYo+KpIWy7hemkqM4/InIv2oCDRzHEPuWfY1XCaTIClODQfUuluejS\nzVXZtuzbM7+eDRkzOTm1aFEGAKU17lfhSg6fmy/7p18uCm8X5olg7vm8n7+UtIiM\nsPWFY4JFZl7tpVDSUn5zZLkqEzVhzm6pPH4wapGOiqpemlvBWdOuSWiDHNXw/Jxi\nEn2VtDACRiY4DuP5BOGHSKblKUwYs0QYRmioqdcZgQKBgQDqsASbxpBlYOXa+n4w\neWrYO16G73aK7SaKjLZqfzHywobteobjJv+2Efbn2mBEqsB59np7ScoFloMcwPpN\nnasZEZJSDglWFWDLSLPy58n7Mfe8bmr63VUx+U9+2GweGq2qD2LIGyxaN4Ouw9eC\n/FfmdwEPyUPG17COmgKUq4khIQKBgQDbjTibdzpSRhVpmpK+xxPTMFvfA8lGkxWC\nqMToLOFvGbukBHZW3VGTqSnSVTIv52/9b3iKIXVlJs6EE5JHWwt2zfoVnPQ0RXQB\n1EBOJBeFwwXwtjiLscAhz0DRB+MWggVozIxFD195jWW/GsGHgUGHRPVietNvH2FN\n0yqNWkRQmQKBgAnVWjwUs9QrnTXxrPvm+n0Y77sDqZnkmerQPoxzy+n6EKE+swwt\nhCVi10+brNDzvqDdnQAxdU+KoO/BfjtmUdb5D4J0qBt9RdL+ttuErsfhrhmtHrpo\nL7uqUJRmCRGx2Hj5sA/mY5NcJB5cglkwrZYwglDhA//+5Zz0AwurrFFBAoGBAK4s\nB2dWG59fV+dSJ+5PEkwtBgUTBN8HGj5wUt15lVHFEVXZ8GOS6f+BaNsimVDlgrOE\ndhTm3DHlqlmfCSGweZTDbQ0uWZEKNDCrSGR1P2/vOkwu0wcHeUuZFmt9nUqi1VXB\nR9oViwFsCfakbDlqcii0rRJ2LDvwognSZuSCYsWpAoGBAN5R1wVDspBRlTTErFta\nwY8Ze4emxPcTc0KB5A365AMcwu74C9w5P3t26Xqo7/1MCjIqp1JOuMwy/Gv2s3PN\nBoG65b6I53SdHFLimyqGtlYwK2RvNTzFBCGlwk+KkDIDRRpPpex34F6sSZ6i9SsY\nFe6H9s0fO8nYqQv5+Zdk8z2Y\n-----END PRIVATE KEY-----\n",
+      "client_email": "firebase-adminsdk-1qag2@films-template-init.iam.gserviceaccount.com",
+      "client_id": "107503941525257542001",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-1qag2%40films-template-init.iam.gserviceaccount.com"
+    };
+    firebase.initializeApp(firebaseConfig);
